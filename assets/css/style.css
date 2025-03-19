@@ -41,11 +41,14 @@ header .logo {
   margin-right: 130px;
   font-weight: 600;
   letter-spacing: 2px;
+  
 }
+
 
 header ul {
   display: flex;
   list-style: none;
+  margin-left: 400px;
 }
 
 header ul li {
