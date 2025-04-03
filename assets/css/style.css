@@ -181,6 +181,7 @@ section.about-section {
   border-radius: 50%;
   border: 1px solid var(--primary);
   object-fit: cover;
+  background-color: #fff;
 }
 
 .about-content {
@@ -606,6 +607,26 @@ footer a {
 .skills-icons i:hover {
   transform: scale(1.2);
   color: var(--primary);
+}
+
+.about-img2{
+  
+  width: 700px;
+  height: 160px;
+  border: 1px solid var(--primary);
+
+  border-radius: 10px; /* Optional for rounded corners */
+  object-fit: cover;
+    padding: 2px;
+ 
+  background-color: #fff;
+}
+.about-img2 img{
+  
+  margin-left: 40px;
+  margin-top: 2px;
+  max-width: 150px;
+max-height: 148px ;
 }
 
 
