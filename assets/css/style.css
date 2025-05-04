@@ -628,5 +628,31 @@ footer a {
   max-width: 150px;
 max-height: 148px ;
 }
+.leetcode {
+  display: inline-block;
+  background-color: var(--dark-primary);
+  border: 1px solid var(--primary);
+  color: white; /* Set text color to white */
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 10px 20px; /* Add padding to make it look like a button */
+  text-decoration: none; /* Remove underline from the link */
+}
+
+.leetcode:hover {
+  cursor: pointer;
+  background-color: var(--primary);
+  color: #fff !important;
+  transition: all 0.3s ease 0s;
+}
+
+.leetcode:link, .leetcode:visited {
+  color: white; /* Ensure the text color is white for both normal and visited states */
+  text-decoration: none; /* Ensure the link remains unlined */
+}
+
+.leetcode:focus, .leetcode:hover {
+  text-decoration: none; /* Remove any underline on focus or hover */
+}
 
 
