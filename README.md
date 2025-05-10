@@ -1,11 +1,5 @@
-# RAHUL PORTFOLIO
+# MY PORTFOLIO
 
-Simple webpage crafted using pure HTML and CSS. A minimalistic showcase of structure and design.
+This is my personal corner of the internet, where you can explore my journey, and see what I've been working on. Developed using **HTML**, **CSS** and **JS**, this portfolio showcases my experience, education, skills, and ongoing projects.
 
-### Live Link: 
-
-##### Connect with me on:
-
-- [Linked-in]([https://www.linkedin.com/in/sudharsan-a-b40506290/](https://www.linkedin.com/in/talarirahul/))
-- [Github]([https://github.com/danielace1](https://github.com/talari30))
-
+**Live Demo:** [talari30.github.io](https://talari30.github.io/my-portfolio/)

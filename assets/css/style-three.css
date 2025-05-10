@@ -38,7 +38,7 @@ header {
   z-index: 1;
 }
 
-header div > a {
+header div>a {
   text-decoration: none;
 }
 
@@ -128,7 +128,7 @@ ul.social-icons {
   margin-right: 10px;
 }
 
-.hero-buttons button > a {
+.hero-buttons button>a {
   text-decoration: none;
   color: #fff;
 }
@@ -197,7 +197,7 @@ section.about-section {
   font-size: 33px;
 }
 
-.about-content h2 > span {
+.about-content h2>span {
   color: var(--primary);
 }
 
@@ -211,7 +211,7 @@ section.about-section {
   font-size: 15px;
 }
 
-.about-content button > a {
+.about-content button>a {
   text-decoration: none;
   color: var(--dark-primary);
 }
@@ -228,7 +228,7 @@ section.projects-section {
   text-align: center;
 }
 
-.projects-section h2 > span {
+.projects-section h2>span {
   color: var(--primary);
 }
 
@@ -251,14 +251,14 @@ section.projects-section {
   transform: translateY(-2px);
 }
 
-.projects-card-box__icons > i {
+.projects-card-box__icons>i {
   font-size: 30px;
   border-radius: 50%;
   border: 1px solid var(--primary);
   padding: 20px;
 }
 
-.projects-card-box:hover .projects-card-box__icons > i {
+.projects-card-box:hover .projects-card-box__icons>i {
   color: var(--primary);
   background-color: var(--dark-primary);
   transition: all 0.5s ease 0s;
@@ -285,7 +285,7 @@ section.projects-section {
   background-color: var(--dark-secondary);
 }
 
-.projects-card-box__buttons button > a {
+.projects-card-box__buttons button>a {
   text-decoration: none;
   font-size: 13px;
   color: #fff;
@@ -304,11 +304,11 @@ section.contact-section {
   margin: 18px 0;
 }
 
-.contact-section h2 > span {
+.contact-section h2>span {
   color: var(--primary);
 }
 
-.contact-section form div > input,
+.contact-section form div>input,
 textarea {
   background-color: var(--text-color);
   width: 300px;
@@ -321,12 +321,12 @@ textarea {
   font-family: "Poppins", sans-serif;
 }
 
-.contact-section form div > input:focus,
+.contact-section form div>input:focus,
 textarea:focus {
   border: 1px solid var(--primary);
 }
 
-.contact-section form div > button {
+.contact-section form div>button {
   font-size: 14px;
 }
 
@@ -340,12 +340,12 @@ textarea:focus {
   font-size: 14px;
 }
 
-.contact__github button > a {
+.contact__github button>a {
   text-decoration: none;
   color: #fff;
 }
 
-.contact__github button > a > i {
+.contact__github button>a>i {
   font-size: 16px;
 }
 
@@ -429,6 +429,7 @@ footer a {
     flex-direction: column;
     align-items: flex-start;
   }
+
   header .logo {
     margin: auto;
   }

@@ -8,27 +8,26 @@ document.addEventListener("click", function (event) {
   }
 });
 
-document.getElementById("toggle-projects").addEventListener("click", function() {
-  let moreProjects = document.getElementById("more-projects");
-  let buttonContainer = document.getElementById("toggle-projects-container");
+document
+  .getElementById("toggle-projects")
+  .addEventListener("click", function () {
+    let moreProjects = document.getElementById("more-projects");
+    let buttonContainer = document.getElementById("toggle-projects-container");
 
-  if (moreProjects.style.maxHeight) {
+    if (moreProjects.style.maxHeight) {
       // Collapse More Projects
       moreProjects.style.maxHeight = null;
       this.innerHTML = 'More Projects <i class="fa fa-toggle-down"></i>';
       buttonContainer.appendChild(this); // Move the button back to its original position
-  } else {
+    } else {
       // Expand More Projects
-      moreProjects.style.maxHeight = (moreProjects.scrollHeight +50)+ "px";
+      moreProjects.style.maxHeight = moreProjects.scrollHeight + 50 + "px";
       this.innerHTML = 'Less Projects <i class="fa fa-toggle-up"></i>';
-      
+
       // Scroll down smoothly & move button below the section
       setTimeout(() => {
-          moreProjects.after(buttonContainer); // Moves button below More Projects section
-          moreProjects.scrollIntoView({ behavior: "smooth", block: "start" });
+        moreProjects.after(buttonContainer); // Moves button below More Projects section
+        moreProjects.scrollIntoView({ behavior: "smooth", block: "start" });
       }, 300);
-  }
-});
-
-
-
+    }
+  });

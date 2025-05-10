@@ -41,7 +41,7 @@ header .logo {
   margin-right: 130px;
   font-weight: 600;
   letter-spacing: 2px;
-  
+
 }
 
 
@@ -125,7 +125,7 @@ ul.social-icons {
   margin-right: 10px;
 }
 
-.hero-buttons button > a {
+.hero-buttons button>a {
   text-decoration: none;
   color: #fff;
 }
@@ -170,7 +170,7 @@ section.about-section {
   background-color: #22282f;
   color: #fff;
   display: flex;
-  
+
   padding: 100px 50px 50px 50px;
 }
 
@@ -193,7 +193,7 @@ section.about-section {
   font-size: 33px;
 }
 
-.about-content h2 > span {
+.about-content h2>span {
   color: var(--primary);
 }
 
@@ -207,7 +207,7 @@ section.about-section {
   font-size: 15px;
 }
 
-.about-content button > a {
+.about-content button>a {
   text-decoration: none;
   color: var(--dark-primary);
 }
@@ -224,7 +224,7 @@ section.projects-section {
   text-align: center;
 }
 
-.projects-section h2 > span {
+.projects-section h2>span {
   color: var(--primary);
 }
 
@@ -247,14 +247,14 @@ section.projects-section {
   transform: translateY(-2px);
 }
 
-.projects-card-box__icons > i {
+.projects-card-box__icons>i {
   font-size: 30px;
   border-radius: 50%;
   border: 1px solid var(--primary);
   padding: 20px;
 }
 
-.projects-card-box:hover .projects-card-box__icons > i {
+.projects-card-box:hover .projects-card-box__icons>i {
   color: var(--primary);
   background-color: var(--dark-primary);
   transition: all 0.5s ease 0s;
@@ -281,7 +281,7 @@ section.projects-section {
   background-color: #22282f;
 }
 
-.projects-card-box__buttons button > a {
+.projects-card-box__buttons button>a {
   text-decoration: none;
   font-size: 13px;
   color: #fff;
@@ -300,11 +300,11 @@ section.contact-section {
   margin: 18px 0;
 }
 
-.contact-section h2 > span {
+.contact-section h2>span {
   color: var(--primary);
 }
 
-.contact-section form div > input,
+.contact-section form div>input,
 textarea {
   background-color: #c4c4c4;
   width: 300px;
@@ -317,12 +317,12 @@ textarea {
   font-family: "Poppins", sans-serif;
 }
 
-.contact-section form div > input:focus,
+.contact-section form div>input:focus,
 textarea:focus {
   border: 1px solid var(--primary);
 }
 
-.contact-section form div > button {
+.contact-section form div>button {
   font-size: 14px;
 }
 
@@ -336,12 +336,12 @@ textarea:focus {
   font-size: 14px;
 }
 
-.contact__github button > a {
+.contact__github button>a {
   text-decoration: none;
   color: #fff;
 }
 
-.contact__github button > a > i {
+.contact__github button>a>i {
   font-size: 16px;
 }
 
@@ -425,6 +425,7 @@ footer a {
     flex-direction: column;
     align-items: flex-start;
   }
+
   header .logo {
     margin: auto;
   }
@@ -479,51 +480,66 @@ footer a {
 
 
 .container {
-    display: flex;
-    justify-content: flex-start; /* Aligns content to the left */
-    gap: 50px; /* Space between image and content */
-    max-width: 7000px; /* Adjust as needed */
-    margin: auto; /* Centers the container */
-    padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  /* Aligns content to the left */
+  gap: 50px;
+  /* Space between image and content */
+  max-width: 7000px;
+  /* Adjust as needed */
+  margin: auto;
+  /* Centers the container */
+  padding: 20px;
 }
 
 /* Styling the image */
 .about-img {
-    flex-shrink: 0; /* Prevents image from shrinking */
+  flex-shrink: 0;
+  /* Prevents image from shrinking */
 }
 
 .about-img img {
-    width: 200px; /* Adjust size as needed */
-    height: 150px;
-    border-radius: 10px; /* Optional for rounded corners */
-    display: block; /* Removes bottom space */
-    padding: 2px;
-    
+  width: 200px;
+  /* Adjust size as needed */
+  height: 150px;
+  border-radius: 10px;
+  /* Optional for rounded corners */
+  display: block;
+  /* Removes bottom space */
+  padding: 2px;
+
 }
 
 /* Text content styling */
 .masters {
-    max-width: 7000px;
+  max-width: 7000px;
 }
 
 /* Responsive Design for Smaller Screens */
 @media (max-width: 768px) {
-    .container {
-        flex-direction: column; /* Stack items vertically on smaller screens */
-        align-items: center;
-        text-align: center;
-    }
+  .container {
+    flex-direction: column;
+    /* Stack items vertically on smaller screens */
+    align-items: center;
+    text-align: center;
+  }
 }
+
 .half-break {
-  line-height: 0.3; /* Adjust the value as needed */
+  line-height: 0.3;
+  /* Adjust the value as needed */
 }
 
 .more-projects {
   display: flex;
-  flex-wrap: nowrap; /* Prevents wrapping to a new line */
-  justify-content: center; /* Centers projects within the container */
-  gap: 10px; /* Adjust space between project boxes */
-  max-width: 100%; /* Ensures full-width usage */
+  flex-wrap: nowrap;
+  /* Prevents wrapping to a new line */
+  justify-content: center;
+  /* Centers projects within the container */
+  gap: 10px;
+  /* Adjust space between project boxes */
+  max-width: 100%;
+  /* Ensures full-width usage */
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.5s ease-out;
@@ -551,7 +567,8 @@ footer a {
 
 /* Skills Section - Uses Contact Me Styling */
 .skills-section {
-  background-color: #22282f; /* Same background */
+  background-color: #22282f;
+  /* Same background */
   color: #fff;
   text-align: center;
   padding: 30px;
@@ -563,7 +580,7 @@ footer a {
   margin: 18px 0;
 }
 
-.skills-section h2 > span {
+.skills-section h2>span {
   color: var(--primary);
 }
 
@@ -577,7 +594,8 @@ footer a {
 
 /* Skills Category Box */
 .skills-category {
-  background-color: #c4c4c4; /* Similar to input fields */
+  background-color: #c4c4c4;
+  /* Similar to input fields */
   padding: 20px;
   border-radius: 5px;
   width: 300px;
@@ -601,7 +619,8 @@ footer a {
 .skills-icons i {
   transition: transform 0.3s ease;
   cursor: pointer;
-  color: #171515; /* Dark theme for icons */
+  color: #171515;
+  /* Dark theme for icons */
 }
 
 .skills-icons i:hover {
@@ -609,34 +628,37 @@ footer a {
   color: var(--primary);
 }
 
-.about-img2{
-  
-  width: 700px;
-  height: 160px;
+.about-img2 {
+
+  width: 200px;
+  height: fit-content;
   border: 1px solid var(--primary);
 
-  border-radius: 10px; /* Optional for rounded corners */
+  border-radius: 10px;
+  /* Optional for rounded corners */
   object-fit: cover;
-    padding: 2px;
- 
-  background-color: #fff;
+  padding: 2px 20px;
+
+  background-color: #ffffff;
 }
-.about-img2 img{
-  
-  margin-left: 40px;
-  margin-top: 2px;
-  max-width: 150px;
-max-height: 148px ;
+
+.about-img2 img {
+  width: 150px;
+  max-height: 145px;
 }
+
 .leetcode {
   display: inline-block;
   background-color: var(--dark-primary);
   border: 1px solid var(--primary);
-  color: white; /* Set text color to white */
+  color: white;
+  /* Set text color to white */
   border-radius: 5px;
   font-weight: 600;
-  padding: 10px 20px; /* Add padding to make it look like a button */
-  text-decoration: none; /* Remove underline from the link */
+  padding: 10px 20px;
+  /* Add padding to make it look like a button */
+  text-decoration: none;
+  /* Remove underline from the link */
 }
 
 .leetcode:hover {
@@ -646,13 +668,16 @@ max-height: 148px ;
   transition: all 0.3s ease 0s;
 }
 
-.leetcode:link, .leetcode:visited {
-  color: white; /* Ensure the text color is white for both normal and visited states */
-  text-decoration: none; /* Ensure the link remains unlined */
+.leetcode:link,
+.leetcode:visited {
+  color: white;
+  /* Ensure the text color is white for both normal and visited states */
+  text-decoration: none;
+  /* Ensure the link remains unlined */
 }
 
-.leetcode:focus, .leetcode:hover {
-  text-decoration: none; /* Remove any underline on focus or hover */
+.leetcode:focus,
+.leetcode:hover {
+  text-decoration: none;
+  /* Remove any underline on focus or hover */
 }
-
-
